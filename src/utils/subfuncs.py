@@ -54,4 +54,4 @@ def constructor_de_consultas(parametros, area):
 
     consulta = consulta_base +quote(api_key) + query_string
 
-    return consulta
+    return consulta 

@@ -1,0 +1,1 @@
+URL_API_IND = 'https://www.inegi.org.mx/app/api/indicadores/desarrolladores/'

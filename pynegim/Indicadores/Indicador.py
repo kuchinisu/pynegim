@@ -1,4 +1,4 @@
-from utils.globales import URL_API_IND
+from pynegim.utils.globales import URL_API_IND
 
 class ConstructorDeIndicadores:
     

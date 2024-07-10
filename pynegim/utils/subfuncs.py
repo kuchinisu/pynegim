@@ -1,5 +1,7 @@
 from fuzzywuzzy import process
-from .globales import ESTADOS, MUNICIPIOS, URL_API_IND
+
+from pynegim.utils.globales import ESTADOS, MUNICIPIOS, URL_API_IND
+
 from urllib.parse import quote
 
 def buscar_areas_geograficas(estado, municipio = None):

@@ -1,4 +1,4 @@
-from utils.subfuncs import buscar_areas_geograficas, constructor_de_consultas
+from pynegim.utils.subfuncs import buscar_areas_geograficas, constructor_de_consultas
 
 
 

@@ -3,15 +3,17 @@ from setuptools import setup, find_packages
 with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
+AUTHOR = 'kuchinisu'
+AUTHOR_EMAIL = 'rodolfoescamilla2011@hotmail.com'
+PACKAGE_NAME='pynegim'
+VERSION = '0.0.1' 
+
 setup(
-    name='pynegim',
-    version='0.1',
-    packages=find_packages(where='src'),
-    package_dir={'': 'src'},
+    name=PACKAGE_NAME,
+    version=VERSION,
+    author=AUTHOR,
+    author_email=AUTHOR_EMAIL,
     install_requires=requirements,
-    entry_points={
-        'console_scripts': [
-            'pynegim=main:main',
-        ],
-    },
+    packages=find_packages(),
+    include_package_data=True
 )

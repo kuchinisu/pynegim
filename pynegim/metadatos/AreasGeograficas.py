@@ -1,5 +1,7 @@
-from src.utils.subfuncs import buscar_areas_geograficas
-from src.utils.subfuncs import constructor_de_consultas
+from utils.subfuncs import buscar_areas_geograficas, constructor_de_consultas
+
+
+
 import requests
 
 class AreaGeografica:

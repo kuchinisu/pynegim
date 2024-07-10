@@ -1,3 +1,1 @@
-from .metadatos.AreasGeograficas import AreaGeografica
-from .Indicadores.Indicador import ConstructorDeIndicadores, ConfiguracionDeParametros
-from .utils.subfuncs import constructor_de_consultas, buscar_areas_geograficas
+import pynegim

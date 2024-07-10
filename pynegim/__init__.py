@@ -1,3 +1,3 @@
-import Indicadores
-import metadatos
-import utils
+from . import Indicadores
+from . import metadatos
+from . import utils

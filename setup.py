@@ -6,7 +6,7 @@ with open('requirements.txt') as f:
 AUTHOR = 'kuchinisu'
 AUTHOR_EMAIL = 'rodolfoescamilla2011@hotmail.com'
 PACKAGE_NAME='pynegim'
-VERSION = '0.0.2' 
+VERSION = '0.0.3' 
 
 setup(
     name=PACKAGE_NAME,
